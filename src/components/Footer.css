@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.footer-credit {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+}
